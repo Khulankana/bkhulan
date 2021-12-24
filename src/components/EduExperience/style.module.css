@@ -4,6 +4,7 @@
   background: linear-gradient(to right, #fbd3e9, #bb377d);
   text-align: center;
   padding: 3rem;
+  box-sizing: border-box;
 }
 
 button {

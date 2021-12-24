@@ -3,6 +3,7 @@
   background-color: #f8f9fa;
   height: 500px;
   padding-top: 9rem;
+  box-sizing: border-box;
 }
 
 .SectionA {
@@ -15,6 +16,11 @@
   font-size: 1.8rem;
   text-transform: uppercase;
   padding-bottom: 1rem;
+}
+
+.SectionA p {
+  font-size: 1.1rem;
+  color: #000;
 }
 
 .SectionB {
