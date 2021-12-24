@@ -1,0 +1,78 @@
+img {
+  max-width: 80%;
+  height: auto;
+}
+
+.Wrapper {
+  width: 80%;
+  height: 450px;
+  background: white;
+  text-align: center;
+  margin: 3rem auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  padding: 30px;
+  position: absolute;
+  top: 30px;
+  left: 130px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Zurag {
+  flex: 50%;
+  margin: 0 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.Info {
+  flex: 35%;
+  margin: 0 30px;
+  padding: 20px;
+  padding-top: 4rem;
+}
+
+.Info p {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.Bigger {
+  font-size: 2.3rem;
+  line-height: 70px;
+  text-justify: inter-word;
+}
+
+.Bolder {
+  font-weight: 500;
+}
+
+.ContactInfo {
+  padding-top: 2.3rem;
+}
+
+.ContactInfo p {
+  text-transform: lowercase;
+  padding: 0.5rem;
+}
+.ContactInfo p:last-child {
+  text-transform: capitalize;
+}
+
+.IcnStyle {
+  color: #bb377d;
+  margin-right: 1rem;
+  padding-top: 0.2rem;
+}
+
+@media (max-width: 800px) {
+  .Wrapper {
+    flex-direction: column;
+  }
+
+  .Info p {
+    font-size: 1rem;
+  }
+}

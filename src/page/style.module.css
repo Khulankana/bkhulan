@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #fff;
+}
+
+.Container {
+  width: 100vw;
+  height: 600px;
+  margin: 0 auto;
+  background: linear-gradient(to right, #fbd3e9, #bb377d);
+  height: 450px;
+  color: #404040;
+  border: none;
+  position: relative;
+}

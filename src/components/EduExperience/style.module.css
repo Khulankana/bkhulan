@@ -1,0 +1,17 @@
+.Container {
+  width: 100%;
+  height: 650px;
+  background: linear-gradient(to right, #fbd3e9, #bb377d);
+  text-align: center;
+  padding: 3rem;
+}
+
+button {
+  padding: 0.6rem;
+  margin: 1rem;
+  border: none;
+  background-color: Transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
