@@ -1,0 +1,9 @@
+.Btn {
+  padding: 0.6rem;
+  margin: 1rem;
+  border: none;
+  background-color: Transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 1.3rem;
+}

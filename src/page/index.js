@@ -1,20 +1,26 @@
+import React, { useState } from "react";
 import AboutMe from "../components/AboutMe";
 import EduExperience from "../components/EduExperience";
-import MainInfo from "../components/MainInfo";
+import Showcase from "../components/Showcase";
 import css from "./style.module.css";
 
 function App() {
-  const handler = (el) => {
-    console.log(el.target.value);
+  const [btnType, setBtnType] = useState("edu");
+
+  const btnHandler = (el) => {
+    setBtnType(el.target.value);
   };
 
   return (
-    <div>
-      <div className={css.Container}></div>
-      <MainInfo />
-      <AboutMe />
-      <EduExperience handler={handler} />
-    </div>
+    console.log(btnType),
+    (
+      <div>
+        <div className={css.Container}></div>
+        <Showcase />
+        <AboutMe />
+        <EduExperience handler={btnHandler} type={btnType} />
+      </div>
+    )
   );
 }
 

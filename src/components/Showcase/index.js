@@ -3,19 +3,19 @@ import css from "./style.module.css";
 import Zurag from "./me.png";
 import { FaPhone, FaEnvelope, FaHome } from "react-icons/fa";
 
-const MainInfo = () => {
+const Showcase = () => {
   return (
     <div className={css.Wrapper}>
       <div className={css.Zurag}>
         {" "}
-        <img src={Zurag} alt="My picture" />
+        <img src={Zurag} alt="My zurag" />
       </div>
 
       <div className={css.Info}>
         <div>
           Hello everybody, i am
           <div>
-            <b className={css.Bigger}>Khulan</b>
+            <b className={css.Bigger}>Khulan Bat-Erdene</b>
           </div>{" "}
           <span className={css.Bolder}>
             {" "}
@@ -38,4 +38,4 @@ const MainInfo = () => {
   );
 };
 
-export default MainInfo;
+export default Showcase;
