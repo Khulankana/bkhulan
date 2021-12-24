@@ -1,6 +1,6 @@
 img {
-  max-width: 80%;
-  height: auto;
+  width: 250px;
+  object-fit: cover;
 }
 
 .Wrapper {
@@ -21,14 +21,14 @@ img {
 }
 
 .Zurag {
-  flex: 50%;
+  flex: 45%;
   margin: 0 30px;
   padding: 20px;
   text-align: center;
 }
 
 .Info {
-  flex: 35%;
+  flex: 55%;
   margin: 0 30px;
   padding: 20px;
   padding-top: 4rem;

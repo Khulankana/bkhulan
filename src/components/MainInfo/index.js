@@ -1,6 +1,6 @@
 import React from "react";
 import css from "./style.module.css";
-import Zurag from "./coder1.jpg";
+import Zurag from "./me.png";
 import { FaPhone, FaEnvelope, FaHome } from "react-icons/fa";
 
 const MainInfo = () => {
