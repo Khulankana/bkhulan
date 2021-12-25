@@ -34,6 +34,7 @@ const Contact = () => {
           value={subject}
           onChange={(e) => setSubject(e.target.value)}
         />
+        <br />
         <input type="submit" value="Send" />
       </div>
       <div className={css.Social}></div>
