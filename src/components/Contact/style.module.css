@@ -1,0 +1,60 @@
+.Container {
+  width: 100%;
+  height: 380px;
+  background-color: #444;
+  padding-top: 2.3rem;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.Info {
+  flex: 50%;
+  padding-left: 12rem;
+}
+
+.Info h2 {
+  padding-bottom: 1rem;
+  padding-left: 5rem;
+}
+
+.Info input,
+textarea {
+  width: 300px;
+  padding: 0.3rem;
+  margin: 0.5rem;
+}
+
+.Info textarea {
+  height: 100px;
+}
+
+.Info button {
+  width: 80px;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  margin-left: 6rem;
+  transition: transform 0.25s ease-out;
+  cursor: pointer;
+}
+
+.Info button:hover {
+  transform: scale(1.05);
+}
+
+.Social {
+  flex: 50%;
+}
+
+@media (max-width: 800px) {
+  .Info {
+    padding-left: 4rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .Info {
+    padding-left: 2.5rem;
+  }
+}

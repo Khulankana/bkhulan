@@ -19,7 +19,7 @@ const Showcase = () => {
           </div>{" "}
           <span className={css.Bolder}>
             {" "}
-            <i style={{ fontSize: "1rem" }}>junior Front-end developer</i>
+            <i style={{ fontSize: "1rem" }}> Front-end developer</i>
           </span>
         </div>
         <div className={css.ContactInfo}>

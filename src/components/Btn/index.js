@@ -7,8 +7,15 @@ const Btn = (props) => {
       <button onClick={props.handler} value="edu" className={css.Btn}>
         Education
       </button>
-      <button onClick={props.handler} value="exp" className={css.Btn}>
-        Experience
+      <span style={{ color: "white" }}>*</span>
+      <span style={{ color: "white" }}>*</span>
+      <button onClick={props.handler} value="work" className={css.Btn}>
+        Work experience
+      </button>
+      <span style={{ color: "white" }}>*</span>
+      <span style={{ color: "white" }}>*</span>
+      <button onClick={props.handler} value="course" className={css.Btn}>
+        Course
       </button>
     </div>
   );

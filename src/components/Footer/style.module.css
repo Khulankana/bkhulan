@@ -1,0 +1,12 @@
+.Container {
+  color: #fff;
+  background-color: #333;
+  text-align: center;
+  padding: 1rem;
+}
+
+@media (max-width: 500px) {
+  .Container {
+    font-size: 0.8rem;
+  }
+}
