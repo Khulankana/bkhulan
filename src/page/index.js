@@ -7,7 +7,7 @@ import Showcase from "../components/Showcase";
 import css from "./style.module.css";
 
 function App() {
-  const [btnType, setBtnType] = useState("edu");
+  const [btnType, setBtnType] = useState("work");
 
   const btnHandler = (el) => {
     setBtnType(el.target.value);

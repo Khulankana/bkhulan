@@ -9,7 +9,11 @@ const Btn = (props) => {
       </button>
       <span style={{ color: "white" }}>*</span>
       <span style={{ color: "white" }}>*</span>
-      <button onClick={props.handler} value="work" className={css.Btn}>
+      <button
+        onClick={props.handler}
+        value="work"
+        className={`${css.Btn} ${css.Active}`}
+      >
         Work experience
       </button>
       <span style={{ color: "white" }}>*</span>
