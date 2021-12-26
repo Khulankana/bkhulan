@@ -66,10 +66,31 @@
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 500px) {
   .Container {
     flex-direction: column;
     height: 700px;
     padding-top: 6rem;
+  }
+
+  .SectionA {
+    padding: 3rem 3rem 0 3rem;
+
+    margin-bottom: 0;
+  }
+
+  .SectionA h2 {
+    font-size: 1.2rem;
+  }
+
+  .SectionA p {
+    font-size: 0.9rem;
+  }
+
+  .SectionB {
+    width: 90%;
+    padding-top: 0;
+    padding-left: 4rem;
+    margin-top: 0;
   }
 }

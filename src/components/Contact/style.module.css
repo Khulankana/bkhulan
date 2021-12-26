@@ -36,7 +36,7 @@ textarea {
   cursor: pointer;
 }
 
-.Info input:hover {
+.Info input:last-child:hover {
   transform: scale(1.05);
 }
 
@@ -52,6 +52,6 @@ textarea {
 
 @media (max-width: 500px) {
   .Info {
-    padding-left: 2.5rem;
+    padding-left: 2rem;
   }
 }

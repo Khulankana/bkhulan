@@ -95,14 +95,16 @@ p {
   h3 {
     font-size: 1rem;
   }
+
   .Timeline ul li {
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
   .Timeline ul li div {
     width: 300px;
   }
 
-  .Timeline ul li:nth-child(even) div {
-    left: 40px;
+  .Timeline ul li:nth-child(even) div,
+  .Timeline ul li:nth-child(odd) div {
+    left: 20px;
   }
 }
