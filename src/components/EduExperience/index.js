@@ -1,5 +1,5 @@
 import React from "react";
-import Btn from "../Btn";
+import Btn from "../General/Btn";
 import css from "./style.module.css";
 
 const Education = (props) => {
@@ -22,8 +22,8 @@ const Education = (props) => {
             <div>
               <h3>Bachelor's degree: </h3>
               <p>
-                2008-2012, Computer engineer,Mongolian University of Science and
-                Technology, Orkhon.
+                2008-2012, Computer hardware engineer, Mongolian University of
+                Science and Technology, Orkhon.
               </p>
             </div>
           </li>
